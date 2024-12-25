@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "qapplication": "cpp",
+        "qmqttclient": "cpp",
+        "qmessagebox": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "qjsonarray": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "qjsondocument": "cpp",
+        "initializer_list": "cpp",
+        "qjsonobject": "cpp",
+        "thread": "cpp"
+    },
+}

@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    // 版本号，用于标识配置文件的版本
+    "version": "0.2.0",
+    // 配置项数组，包含调试配置信息
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "MQTT",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${command:cmake.launchTargetDirectory}",
+            "preLaunchTask": "ClearThenBuild",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:\\Qt\\6.7.3\\mingw_64\\bin"
+                }
+            ],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gdb.exe",
+            "visualizerFile": "c:\\Users\\Coward\\AppData\\Roaming\\Code\\User\\workspaceStorage\\ef08a4a5840270ff1467864f49fc090f\\tonka3000.qtvsctools\\qt.natvis.xml"
+        }
+    ]
+}
